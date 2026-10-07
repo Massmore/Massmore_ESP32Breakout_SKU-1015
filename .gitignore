@@ -3,10 +3,15 @@ build/
 *.bin
 *.elf
 *.map
+# ...ยกเว้นไฟล์ Factory Test ที่แจกให้ผู้ใช้
+!firmware/*.bin
 
 # Arduino IDE / PlatformIO
 .pio/
 .vscode/
+!PlatformIO/.vscode/
+PlatformIO/.vscode/*
+!PlatformIO/.vscode/extensions.json
 *.tmp
 
 # OS files
